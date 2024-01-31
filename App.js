@@ -15,6 +15,7 @@ import Courses from './src/screens/Courses';
 import Signup from './src/screens/Signup';
 import BecomeParents from './src/screens/BecomeParents';
 import ContactUs from './src/components/ContactUs';
+import BecomeTeachers from './src/screens/BecomeTeachers';
 
 const Stack = createStackNavigator();
 
@@ -36,6 +37,7 @@ const App = () => {
         <Stack.Screen name="Courses" component={Courses} />
         <Stack.Screen name="Signup" component={Signup} />
         <Stack.Screen name="Become Parents" component={BecomeParents} />
+        <Stack.Screen name="Become Teachers" component={BecomeTeachers} />
         <Stack.Screen name="Contact Us" component={ContactUs} />
       </Stack.Navigator>
     </NavigationContainer>
